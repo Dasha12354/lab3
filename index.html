@@ -7,10 +7,19 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="dark">
+  <button id="theme-toggle">Переключить тему</button>
+
   <h1>Привет, LESS и SASS!</h1>
 
   <div class="card">
     <p>Это карточка с контентом.</p>
   </div>
+
+  <script>
+    const button = document.getElementById('theme-toggle');
+    button.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
 </body>
 </html>
