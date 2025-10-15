@@ -15,3 +15,17 @@ body {
     }
   }
 }
+body.dark {
+  background-color: #222;  
+  color: #eee;            
+
+  h1 {
+    color: $main-color;   
+  }
+
+  .card {
+    border-color: $main-color; 
+    background-color: #333;    
+    color: #eee;               
+  }
+}
