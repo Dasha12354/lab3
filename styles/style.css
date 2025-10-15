@@ -3,10 +3,9 @@ body {
   color: #333;
   background-color: #f8f8f8;
 }
-body .card {
-  border: 1px solid #4CAF50;
-  border-radius: 8px;
-  padding: 1rem;
+body.dark {
+  background-color: $bg-dark;
+  color: $text-dark;
 }
 @media (max-width: 600px) {
   body .card {
