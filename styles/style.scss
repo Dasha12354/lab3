@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  background-color: #f8f8f8;
+
+  .card {
+    border: 1px solid $main-color;
+    border-radius: 8px;
+    padding: 1rem;
+
+    @media (max-width: 600px) {
+      padding: 0.5rem;
+    }
+  }
+}
