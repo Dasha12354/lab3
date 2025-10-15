@@ -1,16 +1,33 @@
+@charset "UTF-8";
+/* Светлая тема */
 body {
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #f8f8f8;
 }
-body.dark {
-  background-color: $bg-dark;
-  color: $text-dark;
+body .card {
+  border: 1px solid #4CAF50;
+  border-radius: 8px;
+  padding: 1rem;
 }
 @media (max-width: 600px) {
   body .card {
     padding: 0.5rem;
   }
+}
+
+/* Тёмная тема */
+body.dark {
+  background-color: #222;
+  color: #eee;
+}
+body.dark h1 {
+  color: #4CAF50;
+}
+body.dark .card {
+  border-color: #4CAF50;
+  background-color: #333;
+  color: #eee;
 }
 
 /*# sourceMappingURL=style.css.map */
