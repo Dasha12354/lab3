@@ -1,5 +1,6 @@
 @use 'variables' as *;
 
+/* Светлая тема */
 body {
   font-family: Arial, sans-serif;
   color: $text-color;
@@ -15,6 +16,8 @@ body {
     }
   }
 }
+
+/* Тёмная тема */
 body.dark {
   background-color: #222;  
   color: #eee;            
