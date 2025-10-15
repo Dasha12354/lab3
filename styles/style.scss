@@ -19,19 +19,16 @@ body {
 
 /* Тёмная тема */
 body.dark {
-  background-color: #222;  
-  color: #eee;            
+  background-color: #222;
+  color: #eee;
 
   h1 {
-    color: $main-color;   
+    color: $main-color;
   }
-  body {
-  background-color: red;
-}
 
   .card {
-    border-color: $main-color; 
-    background-color: #333;    
-    color: #eee;               
+    border-color: $main-color;
+    background-color: #333;
+    color: #eee;
   }
 }
