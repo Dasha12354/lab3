@@ -25,6 +25,9 @@ body.dark {
   h1 {
     color: $main-color;   
   }
+  body {
+  background-color: red;
+}
 
   .card {
     border-color: $main-color; 
