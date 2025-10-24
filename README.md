@@ -9,10 +9,12 @@
 ## Скриншоты
 
 ### Светлая тема
-![Светлая тема](screenshots/light.png)
+<img width="768" height="327" alt="image" src="https://github.com/user-attachments/assets/dbecec0d-dac7-4803-afb0-50512fae3c47" />
+
 
 ### Тёмная тема
-![Тёмная тема](screenshots/dark.png)
+<img width="785" height="283" alt="image" src="https://github.com/user-attachments/assets/e11a2be2-5ace-4a39-b11d-a8d74f8d2791" />
+
 
 > *Примечание:* для добавления скриншотов создай папку `screenshots` в проекте и положи туда изображения с именами `light.png` и `dark.png`.
 
